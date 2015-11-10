@@ -1,0 +1,21 @@
+{
+    "name": "etconsilium/reformal-api",
+    "description": "Reformal API implementation",
+    "keywords": ["reformal", "api", "for food"],
+    "license": "BSDLv2",
+    "copyright": "(cc-by-sa)",
+    "version": "1.0",
+    "authors": [
+        {
+            "name": "etconsilium",
+            "email": "etconsilium@users.noreply.github.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-4": { "": "src/" }
+    }
+}
