@@ -74,7 +74,7 @@ class API {
         $response = curl_exec($ch);
         curl_close($ch);
         $res_xml = simplexml_load_string($response);
-        return (array)$res_xml;
+        return json_decode( json_encode($res_xml), true );
     }
 
     public function signIn($email, $psswd) {
