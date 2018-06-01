@@ -2,7 +2,7 @@
     "name": "etconsilium/reformal-api",
     "description": "Reformal API implementation",
     "keywords": ["reformal", "api", "for food"],
-    "license": "BSDLv2",
+    "license": "WTFPL",
     "copyright": "(cc-by-sa)",
     "version": "1.0",
     "authors": [
